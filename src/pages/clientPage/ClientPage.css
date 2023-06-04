@@ -1,0 +1,94 @@
+.client-info{
+    padding: 3% 0;
+    background-color: rgb(52, 49, 49);
+}
+
+.client-details{
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.client-details h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.client-details p{
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family:'Raleway', sans-serif;
+}
+
+.client-box{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.client-imgz{
+    height: 100px;
+    background-color: #ffc107;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+.client-remarkz img{
+    width: 120px;
+    height: 120px;
+    margin-top: -50px;
+    margin-left: 50px;
+    border: 5px solid whitesmoke;
+    border-radius: 100%;
+}
+
+.client-remarkz{
+    background-color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.client-remarkz h1{
+    color: black;
+    font-size: 1.5rem;
+    padding:5%  10%;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: start;
+}
+
+.client-remarkz p{
+    color: black;
+    padding: 5% 10%;
+    padding-top: 0;
+    text-align: start;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:600px) {
+    
+    .client-box{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+    .client-remarkz img{
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    
+    .client-remarkz h1{
+        padding:1%  7%;
+    }
+
+    .client-remarkz p{
+        padding: 5% 7%;
+    }
+}

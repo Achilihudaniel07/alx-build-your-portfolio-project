@@ -1,0 +1,169 @@
+.home-info{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../../assets/images/homeP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-details{
+    width: 80%;
+    margin: 0 auto;
+    padding: 12% 4%;
+    color: white;
+}
+
+.home-info h1{
+    font-size: 6rem;
+    margin-bottom: 0;
+    letter-spacing: 0.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 
+      -1px -1px 0 orange,
+    -2px -2px 0 orange,
+    -3px -3px 0 orange,
+    -4px -4px 0 orange,
+    -5px -5px 0 orange, 
+    -6px -6px 0 orange,
+    -7px -7px 0 orange,
+    -8px -8px 0 orange,
+    -10px -20px 30px orange;  */
+}
+
+.home-info p{
+    width: 70%;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    word-spacing: 0.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-done{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.construction-services, .reconstruction, .electrical-services{
+    background-color: white;
+    box-shadow: 0px 3.43px 3.43px 0px #0000003D;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2% 2%;
+    margin-top: 30px;
+}
+
+.construction-services:hover, .reconstruction:hover, .electrical-services:hover{
+    background-color: #ffc107;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+
+.footer-hp{
+    margin-top:100px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1000px) {
+    
+    .home-info{
+        background-image: url(../../assets/images/homeP.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .home-details{
+        width: 100%;
+    }
+    
+    .home-details h1{
+        margin-top: 50%;
+        font-size: 3rem;
+    }
+    
+    .home-details p{
+        width: 100%;
+        margin-bottom: 30px;
+        font-family:'Raleway', sans-serif;
+
+    }
+    
+    .services-done img{
+        width: 30px;
+    }
+
+    .construction-services, .reconstruction, .electrical-services{
+        background-color: white;
+        box-shadow: 0px 3.43px 3.43px 0px #0000003D;
+        width: 200px;
+        text-align: center;
+        padding: 2% 2%;
+    }
+
+    .services-done h4{
+        font-size: 1.1rem;
+    }
+    
+    .construction-services, .electrical-services{
+        width: 150px;
+        height: 120px;
+        padding: 10px 2%;
+    }
+    
+    .reconstruction{
+       display: none;
+    }
+  }
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:2000px) {
+    
+    .home-info{
+        background-image: url(../../assets/images/homeP.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .home-info p{
+        margin-bottom: 30px;
+        font-family:'Raleway', sans-serif;     
+    }
+    
+    .home-details{
+        width: 80%;
+        margin: 0 auto;
+        padding: 15% 4%;
+        color: white;
+    }
+
+    .services-done img{
+        width: 40px;
+    }
+
+    .construction-services, .reconstruction, .electrical-services{
+        background-color: white;
+        box-shadow: 0px 3.43px 3.43px 0px #0000003D;
+        width: 200px;
+        text-align: center;
+        padding: 2% 2%;
+    }
+
+    .services-done h4{
+        font-size: 1.0rem;
+    }
+    
+    .construction-services,.reconstruction, .electrical-services{
+        width: 150px;
+        height: 120px;
+        padding: 10px 2%;
+    }
+    
+  }
