@@ -1,4 +1,4 @@
-**PROJECT NAME**: A CONSTRUCTION FIRM WEBSITE <br/> <br/>
+**PROJECT NAME**: A CONSTRUCTION FIRM WEBSITE TEMPLATE <br/> <br/>
 **INTRODUCTION**: A website template for a construction company.  <br/> <br/>
 **LINKS**:https://joedangoldconstruction.netlify.app/  <br/> <br/>
 **AUTHORS**: Achilihu Daniel, Noble Didi  <br/> <br/>
